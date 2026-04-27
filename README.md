@@ -12,8 +12,6 @@ Before running this project, you will need the following installed:
 - [MySQL Workbench](https://dev.mysql.com/downloads/workbench/) — for running the database setup file
 - A modern web browser (Chrome/Safari recommended)
 
----
-
 ## Setup Instructions
 
 ### Step 1 — Install and start XAMPP
@@ -23,8 +21,6 @@ Before running this project, you will need the following installed:
    - **Mac:** `/Applications/XAMPP/manager-osx.app`
    - **Windows:** Open the XAMPP Control Panel from the Start menu
 3. Start both **Apache** and **MySQL**
-
----
 
 ### Step 2 — Place the project files
 
@@ -43,7 +39,6 @@ htdocs/
     charts.js
     styles.css
     setup.sql
----
 
 ### Step 3 — Set up the database
 
@@ -57,8 +52,6 @@ htdocs/
 4. Click the lightning bolt icon (or press `Cmd+Enter` on Mac / `Ctrl+Enter` on Windows) to run the script
 5. This will automatically create the `disconnect` database, create the `daily_logs` table, and insert sample data for demonstration purposes
 
----
-
 ### Step 4 — Open the application
 
 Open your browser and go to:
@@ -66,15 +59,11 @@ http://localhost/Disconnect/track.php
 
 You should see the Track page with a streak counter, heatmap, and logging form.
 
----
-
 ## Pages
 
 1. Track - `http://localhost/Disconnect/track.php` (Home page - log platform avoidance, view streak and heatmap)
 2. Log Mood - `http://localhost/Disconnect/mood.php` (Log daily mood rating & add notes)
 3. Analytics - `http://localhost/Disconnect/analytics.php` (View mood trends & weekly success rate charts)
-
----
 
 ## Troubleshooting
 
@@ -109,8 +98,6 @@ Check that `styles.css` is in the same folder as `track.php`. The filename is ca
 **Charts on the analytics page are not showing**
 
 The charts require an internet connection to load Chart.js from a CDN. Ensure you are connected to the internet when viewing the analytics page.
-
----
 
 ## Technologies Used
 

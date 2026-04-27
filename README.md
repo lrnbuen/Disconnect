@@ -4,8 +4,6 @@ A minimalist web-based habit tracker that helps users reduce unintentional scree
 
 Built with PHP, MySQL, HTML, CSS, and JavaScript.
 
----
-
 ## Requirements
 
 Before running this project, you will need the following installed:

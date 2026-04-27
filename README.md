@@ -14,7 +14,7 @@ Before running this project, you will need the following installed:
 
 ## Setup Instructions
 
-### Step 1 — Install and start XAMPP
+### Step 1: Install and start XAMPP
 
 1. Download and install XAMPP from [apachefriends.org](https://www.apachefriends.org)
 2. Open the XAMPP Manager
@@ -22,7 +22,7 @@ Before running this project, you will need the following installed:
    - **Windows:** Open the XAMPP Control Panel from the Start menu
 3. Start both **Apache** and **MySQL**
 
-### Step 2 — Place the project files
+### Step 2: Place the project files
 
 Clone or download this repository and place the `Disconnect` folder inside the XAMPP `htdocs` directory:
 
@@ -32,15 +32,15 @@ Clone or download this repository and place the `Disconnect` folder inside the X
 Your folder structure should look like this:
 htdocs/
   Disconnect/
-    db.php
-    track.php
-    mood.php
-    analytics.php
-    charts.js
-    styles.css
-    setup.sql
+    - db.php
+    - track.php
+    - mood.php
+    - analytics.php
+    - charts.js
+    - styles.css
+    - setup.sql
 
-### Step 3 — Set up the database
+### Step 3: Set up the database
 
 1. Open **MySQL Workbench**
 2. Connect to your local instance — use these credentials:
@@ -52,7 +52,7 @@ htdocs/
 4. Click the lightning bolt icon (or press `Cmd+Enter` on Mac / `Ctrl+Enter` on Windows) to run the script
 5. This will automatically create the `disconnect` database, create the `daily_logs` table, and insert sample data for demonstration purposes
 
-### Step 4 — Open the application
+### Step 4: Open the application
 
 Open your browser and go to:
 http://localhost/Disconnect/track.php
@@ -101,23 +101,19 @@ The charts require an internet connection to load Chart.js from a CDN. Ensure yo
 
 ## Technologies Used
 
-| Technology | Purpose |
-|---|---|
-| PHP | Server-side logic and database communication |
-| MySQL | Database storage |
-| HTML / CSS | Page structure and styling |
-| JavaScript | Chart interactivity |
-| Chart.js | Data visualisation (loaded via CDN) |
-| XAMPP | Local development server |
-
----
+1. PHP - Server-side logic and database communication 
+2. MySQL - Database storage 
+3. HTML / CSS - Page structure and styling 
+4. JavaScript - Chart interactivity 
+5. Chart.js - Data visualisation (loaded via CDN) 
+6. XAMPP - Local development server 
 
 ## Project Structure
 Disconnect/
-db.php — database connection
-track.php — home page with streak, heatmap, and avoidance logging
-mood.php — mood logging page
-analytics.php — analytics page with charts and summary stats
-charts.js — Chart.js configuration for both charts
-styles.css — all styles across every page
-setup.sql — run once in MySQL Workbench to create the database
+- db.php — database connection
+- track.php — home page with streak, heatmap, and avoidance logging
+- mood.php — mood logging page
+- analytics.php — analytics page with charts and summary stats
+- charts.js — Chart.js configuration for both charts
+- styles.css — all styles across every page
+- setup.sql — run once in MySQL Workbench to create the database

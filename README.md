@@ -24,7 +24,7 @@ Before running this project, you will need the following installed:
 
 ### Step 2: Place the project files
 
-Clone or download this repository and place the `Disconnect` folder inside the XAMPP `htdocs` directory:
+Clone or download this repository and place the `Disconnect` folder inside the XAMPP `htdocs` directory (If downloading as a zip, rename the extracted folder from `Disconnect-main` to `Disconnect` before placing it in `htdocs`."
 
 - **Mac:** `/Applications/XAMPP/htdocs/Disconnect`
 - **Windows:** `C:/xampp/htdocs/Disconnect`
